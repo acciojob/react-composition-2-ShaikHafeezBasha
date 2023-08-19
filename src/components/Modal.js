@@ -4,7 +4,7 @@ const Modal = ({ showprop, setShowprop }) => {
         setShowprop(false)
     }
     return (
-        <div>
+        <div className="model">
             <button onClick={() => { setShowprop(true) }}>Show Modal</button>
             {
                 showprop &&
