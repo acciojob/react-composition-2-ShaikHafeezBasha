@@ -1,11 +1,12 @@
 
-import React from "react";
+import React, { useState } from "react";
 import './../styles/App.css';
-
+import Modal from "../components/Modal"
 const App = () => {
+  let [showprop, setShowprop] = useState(false)
   return (
     <div>
-        {/* Do not remove the main div */}
+      <Modal showprop={showprop} setShowprop={setShowprop} />
     </div>
   )
 }
