@@ -5,6 +5,7 @@ button{
     color:white;
     font-weight: bold;
     border:none;
+    cursor: pointer;
 }
 .model-overlay{
     width: 500px;
@@ -16,5 +17,8 @@ button{
     background-color:#a4d0e0;
 }
 .model-p{
+    font-size: 20px;
+}
+.model p{
     font-size: 20px;
 }
